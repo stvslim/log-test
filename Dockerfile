@@ -1,4 +1,5 @@
 FROM alpine
-COPY . /tmp
 
-CMD cat /tmp/test-log.txt
+COPY . /app
+
+CMD cat /app/test.txt
